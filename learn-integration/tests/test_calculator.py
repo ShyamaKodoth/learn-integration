@@ -7,3 +7,6 @@ def test_add():
 def test_add_string():
     with pytest.raises(TypeError):
         add("string", 4)
+
+def test_added():
+    result = add(6, 7)
